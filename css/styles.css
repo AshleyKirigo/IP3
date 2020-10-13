@@ -1,0 +1,65 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container1 {
+  color: white
+}
+.first-text {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.second-text {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+.third-text {
+  position: absolute;
+  top: 70%;
+  left: 40%
+}
+.container2 {
+  color: white
+}
+.fourth-text {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.fifth-text {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+.sixth-text {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+.seventh-text {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+.p {
+  text-align:center;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 4px;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  padding-right: 30px;
+}
